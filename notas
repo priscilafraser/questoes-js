@@ -1,0 +1,5 @@
+let num1 = parseFloat(prompt("Digite um número [10-50]: "));
+while (num1 < 10 || num1 > 50) {
+    console.log(`Valor incorreto!`);
+    num1 = parseFloat(prompt("Digite um número entre 10 e 50: "));
+}
